@@ -4,9 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Exo Javascript</title>
 </head>
 <body>
-    <script src="/script.js"></script>
+    <h1>Exercice supplementire Javascript</h1>
+    <!--?EXO1-->
+    <h2>Exercice 1</h2>
+        <p>Définir une variable et l'afficher dans une boîte de dialogue.</p>
+            <button id="run">Appuyer pour voir la viriable</button>
+    <!--?EXO2-->
+    <h2>Exercice 2</h2>
+        <p>Définir trois variables : nom, prenom et ville. Les afficher comme sur l'image correspondant à l'exercice.</p>
+            <button id="run1">Start !</button>
+    <!--?EXO3-->
+    <h2>Exercice 3</h2>
+        <p>Afficher une boîte de dialogue permettant de saisir son prénom. Afficher dans une boîte de dialogue "Bonjour, " suivi du prénom saisi.</p>
+            <button id="run2">Dite-vous Bonjour</button>
+    <!--?EXO4-->
+    <h2>Exercice 4</h2>
+        <p>Refaire l’exercice 2 en demandant le nom, le prénom et la ville à l’utilisateur.</p>
+        <form>
+                <label for="nom">Nom : </label><input type="text" name="nom" id="nom"/>
+                <label for="prenom">Prénom : </label><input type="text" name="prenom" id="prenom"/>
+                <label for="ville">Ville : </label><input type="text" name="ville" id="ville"/>
+                <button  name="valider" id="valider">Valider</button>
+            </form>
+    <!--?EXO5-->
+    <h2>Exercice 5</h2>
+        <p>Demander à l’utilisateur deux nombres à virgule. Ne garder que la partie entière du premier .</p>
+        <p>Les multiplier et afficher le résultat dans une boîte de dialogue.</p>
+        <form>
+            <label for="premier_nombre">Premier nombre : </label><input type="text" id="premier_nombre" name="premier_nombre"/>
+            <label for="deuxieme_nombre">Deuxième nombre : </label><input type="text" id="deuxieme_nombre" name="deuxieme_nombre"/>
+                <button  id="valider1">Valider</button>
+            </form>
+            <p id="p"></p>
+    <!--todoEXO6-->
+    <!--todo bien lier mais ne recupere pas les chiffres-->
+    <h2>Exercice 6</h2>
+        <p>Dans un fichier séparé, créer une fonction permettant d’afficher le reste de leur division. L’appeler depuis le fichier html.</p>
+        <form>
+            <label for="Premier_nombre">Premier nombre : </label><input type="text" id="Premier_nombre" name="Premier_nombre"/>
+            <label for="Deuxieme_nombre">Deuxième nombre : </label><input type="text" id="Deuxieme_nombre" name="Deuxieme_nombre"/>
+                <button id="valider2" name="valider2">Valider</button>
+            </form>
+    <!--?EXO7-->
+    <h2>Exercice 7</h2>
+        <p>Demander à l’utilisateur sa pointure et son année de naissance. Créer une fonction qui fait les calculs suivants :</p>
+            <ol>
+                <li> Multiplier la pointure par 2</li>
+                <li>Ajouter 5 au résultat</li>
+                <li>Multiplier le tout par 50</li>
+                <li>Soustraire l’année de naissance</li>
+                <li>Ajouter au tout 1766</li>
+            </ol>
+        <p>La fonction doit retourner le résultat. Tester avec votre date de naissance et votre pointure. Attention : n'utiliser une seule variable « resultat ».</p>
+        <form>
+                <label for="pointure">Pointure : </label><input type="text" id="pointure" name="pointure"/>
+                <label for="annee">Année de naissance : </label><input type="text" id="annee" name="annee"/>
+                <button id="valider3" name="valider3">Valider</button>
+            </form>
+    <!--?EXO8-->
+    <h2>Exercice 8</h2>
+        <p>Demander à l’utilisateur de saisir son âge. S’il a plus de 18 ans, afficher " Vous êtes majeur ". Sinon afficher " Vous êtes mineur ".</p>
+            <form>
+                <label for="age">Votre âge : </label><input type="text" id="age" name="age"/>
+                <button id="valider4" name="valider4">Valider</button>
+            </form>
+    <script src="assets/Js/Funct.js"></script>
+    <script src="assets/Js/script.js"></script>
 </body>
 </html>
