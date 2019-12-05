@@ -50,3 +50,5 @@ document.getElementById("valider4").addEventListener('click',()=>{
         alert ('Vous etes majeur !')
     }
 })
+
+//!-------FIN---------

@@ -2,8 +2,8 @@
     "version": 3,
     "mappings": "AAAA,AAAA,EAAE,CAAA;EACE,UAAU,EAAE,MAAM;CACrB;;AACD,AAAA,EAAE,CAAA;EACE,YAAY,EAAE,IAAI;CACrB;;AACD,AAAA,IAAI,CAAA;EACA,UAAU,EAAE,MAAM;CACrB",
     "sources": [
-        "../sass/style.scss"
+        "../sass/style_base2.scss"
     ],
     "names": [],
-    "file": "style.css"
+    "file": "style_base2.css"
 }
